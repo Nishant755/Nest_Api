@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "skills": {
+    "arcjet": {
+      "source": "arcjet/skills",
+      "sourceType": "github",
+      "skillPath": "arcjet/SKILL.md",
+      "computedHash": "1305b82d6b64940751526a9cba5d1940c4a26d83e12e0ef5b490fe75cc9faf2c"
+    },
+    "prisma-cli": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-cli/SKILL.md",
+      "computedHash": "129e77cba93984b88d66cf0f66d5788f5487431f17f189a1ab2d839976874e3b"
+    },
+    "prisma-client-api": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-client-api/SKILL.md",
+      "computedHash": "cbbabff961c8e16b2d59f8c1ffb4e7e20be52154e778ab95121e0211d6d09969"
+    },
+    "prisma-compute": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-compute/SKILL.md",
+      "computedHash": "8d6053aefdf0b7c80e981e93c1300d617292efb6a5b0bdd826bc85e47431f3e3"
+    },
+    "prisma-database-setup": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-database-setup/SKILL.md",
+      "computedHash": "6a991a2530a6da7131e3fc71c353e8278702d0146b8b6e1d2fdfc2d3d0a21bd2"
+    },
+    "prisma-driver-adapter-implementation": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-driver-adapter-implementation/SKILL.md",
+      "computedHash": "cc487f1bf36f616ddb3a9478b3527d288dd706d77a9e5dbee9af52dca1eee8e4"
+    },
+    "prisma-mongodb-upgrade": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-mongodb-upgrade/SKILL.md",
+      "computedHash": "b94149ad5f1ec269dfd717b321538de6d39943b2ae6721a0d82302057f57ae18"
+    },
+    "prisma-postgres": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-postgres/SKILL.md",
+      "computedHash": "0422727e18019add9208b86ce862964025acc011ff31fba1d59a01b836bd6272"
+    },
+    "prisma-postgres-setup": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-postgres-setup/SKILL.md",
+      "computedHash": "5dbcf5a488d7cb7136340b86dcf781d6d92cf793f92c105ef644ac31ccac4d3b"
+    },
+    "prisma-upgrade-v7": {
+      "source": "prisma/skills",
+      "sourceType": "github",
+      "skillPath": "prisma-upgrade-v7/SKILL.md",
+      "computedHash": "0e07dc2831f86cf27627df914db43d862b0fc75d72c1f9070434aab7940bad7c"
+    },
+    "frontend-design": {
+      "source": ".agents/skills/frontend-design",
+      "sourceType": "local",
+      "skillPath": "frontend-design/SKILL.md",
+      "computedHash": "b13d40a222fa5013adaa13162f7284469e8bdf6c162c7da392308573d7b4c1dd"
+    },
+    "shadcn-ui-mcp": {
+      "source": ".agents/skills/shadcn-ui-mcp",
+      "sourceType": "local",
+      "skillPath": "shadcn-ui-mcp/SKILL.md",
+      "computedHash": "3a285a17e141ec1a501599d1ad9c1977e7d4f263c272afa4c42e5588042afcb3"
+    },
+    "playwright-mcp": {
+      "source": ".agents/skills/playwright-mcp",
+      "sourceType": "local",
+      "skillPath": "playwright-mcp/SKILL.md",
+      "computedHash": "a7e14fe48c2abdbaefa1d15f7b3b8c076323d0ec2fd955f7dd86556c06b2fdbe"
+    }
+  }
+}
