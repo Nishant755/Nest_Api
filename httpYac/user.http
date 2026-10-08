@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:3000
+
+### Create Quick Reply
+GET {{baseUrl}}/health
+
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "[EMAIL_ADDRESS]",
+  "password": "[PASSWORD]"
+}

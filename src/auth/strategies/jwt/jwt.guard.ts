@@ -8,6 +8,11 @@ import { Reflector } from '@nestjs/core';
 import { JwtService } from '@nestjs/jwt';
 import { Request } from 'express';
 
+import { AuthGuard } from '@nestjs/passport';
+
+@Injectable()
+export class JwtAuthGuard extends AuthGuard('jwt') {}
+
 @Injectable()
 export class JwtGuard implements CanActivate {
   constructor(private readonly reflector: Reflector, private readonly jwtService: JwtService) { }

@@ -7,15 +7,16 @@ import { ConfigModule } from '@nestjs/config';
 import { AuthModule } from './auth/auth.module';
 import { ArcjetModule } from './auth/arcjet/arcjet.module';
 
+
 @Module({
   imports: [
-    UsersModule,
-    PrismaModule,
     ConfigModule.forRoot({
-      isGlobal: false,
+      isGlobal: true,
     }),
-    AuthModule,   //module based auth
     ArcjetModule, //module based arcjet
+    AuthModule,   //module based auth
+    UsersModule,
+    PrismaModule
   ],
   controllers: [AppController],
   providers: [AppService],

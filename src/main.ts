@@ -1,9 +1,9 @@
-import { NestFactory, Reflector } from '@nestjs/core';
+import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
 import { TransformResponseInterceptor } from './common/interceptors/transform-response.interceptor';
-import { ArcjetGuard } from './auth/arcjet/arcjet.guard';
-import { ARCJET_CLIENT } from './auth/arcjet/arcjet';
+// import { ArcjetGuard } from './auth/arcjet/arcjet.guard';
+// import { ARCJET_CLIENT } from './auth/arcjet/arcjet';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
